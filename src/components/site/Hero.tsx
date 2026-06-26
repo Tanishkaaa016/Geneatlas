@@ -95,7 +95,7 @@ export function Hero() {
           {/* Buttons */}
           <div className="mt-10 flex flex-wrap gap-3">
             <a
-              href="#classifier"
+              href="/demo"
               className="rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
             >
               Launch GeneAtlas AI →
