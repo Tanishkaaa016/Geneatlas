@@ -39,7 +39,12 @@ model/**/__pycache__/
 *.egg-info/
 
 # Large TCGA data (regenerate locally — see model/data/README.md)
-model/data/*
+# Ignore raw TCGA downloads only
+model/data/raw/
+
+# Keep processed data required for inference
+!model/data/processed/
+!model/data/processed/**
 !model/data/README.md
 
 # Duplicate exports (canonical copy lives in src/data/)
