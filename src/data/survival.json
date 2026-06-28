@@ -1,0 +1,146 @@
+{
+  "disclaimer": "Illustrative TCGA literature-based median overall survival by cancer type. Not computed from this cohort (clinical follow-up not in current dataset).",
+  "source": "TCGA Pan-Cancer Atlas published survival summaries",
+  "curves": [
+    {
+      "code": "BRCA",
+      "label": "Breast Invasive Carcinoma",
+      "median_months": 126,
+      "five_year_survival": 0.89,
+      "points": [
+        {
+          "months": 0,
+          "survival": 1.0
+        },
+        {
+          "months": 12,
+          "survival": 0.96
+        },
+        {
+          "months": 36,
+          "survival": 0.92
+        },
+        {
+          "months": 60,
+          "survival": 0.89
+        },
+        {
+          "months": 120,
+          "survival": 0.78
+        }
+      ]
+    },
+    {
+      "code": "KIRC",
+      "label": "Kidney Clear Cell Carcinoma",
+      "median_months": 68,
+      "five_year_survival": 0.74,
+      "points": [
+        {
+          "months": 0,
+          "survival": 1.0
+        },
+        {
+          "months": 12,
+          "survival": 0.88
+        },
+        {
+          "months": 36,
+          "survival": 0.79
+        },
+        {
+          "months": 60,
+          "survival": 0.74
+        },
+        {
+          "months": 120,
+          "survival": 0.58
+        }
+      ]
+    },
+    {
+      "code": "LUAD",
+      "label": "Lung Adenocarcinoma",
+      "median_months": 48,
+      "five_year_survival": 0.55,
+      "points": [
+        {
+          "months": 0,
+          "survival": 1.0
+        },
+        {
+          "months": 12,
+          "survival": 0.78
+        },
+        {
+          "months": 36,
+          "survival": 0.64
+        },
+        {
+          "months": 60,
+          "survival": 0.55
+        },
+        {
+          "months": 120,
+          "survival": 0.38
+        }
+      ]
+    },
+    {
+      "code": "PRAD",
+      "label": "Prostate Adenocarcinoma",
+      "median_months": 144,
+      "five_year_survival": 0.98,
+      "points": [
+        {
+          "months": 0,
+          "survival": 1.0
+        },
+        {
+          "months": 12,
+          "survival": 0.99
+        },
+        {
+          "months": 36,
+          "survival": 0.98
+        },
+        {
+          "months": 60,
+          "survival": 0.98
+        },
+        {
+          "months": 120,
+          "survival": 0.94
+        }
+      ]
+    },
+    {
+      "code": "COAD",
+      "label": "Colon Adenocarcinoma",
+      "median_months": 42,
+      "five_year_survival": 0.65,
+      "points": [
+        {
+          "months": 0,
+          "survival": 1.0
+        },
+        {
+          "months": 12,
+          "survival": 0.82
+        },
+        {
+          "months": 36,
+          "survival": 0.71
+        },
+        {
+          "months": 60,
+          "survival": 0.65
+        },
+        {
+          "months": 120,
+          "survival": 0.52
+        }
+      ]
+    }
+  ]
+}

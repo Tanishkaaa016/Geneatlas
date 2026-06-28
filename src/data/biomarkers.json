@@ -1,0 +1,272 @@
+{
+  "BRCA": {
+    "code": "BRCA",
+    "full": "Breast Invasive Carcinoma",
+    "genes": [
+      {
+        "symbol": "SCGB2A2",
+        "ensembl": "ENSG00000110484.6",
+        "shap": 1.1242,
+        "note": "Rank 1 by class mean expression"
+      },
+      {
+        "symbol": "GATA3",
+        "ensembl": "ENSG00000107485.15",
+        "shap": 1.0929,
+        "note": "Rank 2 by class mean expression"
+      },
+      {
+        "symbol": "LMX1B-DT",
+        "ensembl": "ENSG00000224842.2",
+        "shap": 1.0692,
+        "note": "Rank 3 by class mean expression"
+      },
+      {
+        "symbol": "LINC00993",
+        "ensembl": "ENSG00000235687.8",
+        "shap": 1.0197,
+        "note": "Rank 4 by class mean expression"
+      },
+      {
+        "symbol": "TFDP3",
+        "ensembl": "ENSG00000183434.9",
+        "shap": 1.0169,
+        "note": "Rank 5 by class mean expression"
+      },
+      {
+        "symbol": "ANKRD30A",
+        "ensembl": "ENSG00000148513.17",
+        "shap": 1.0127,
+        "note": "Rank 6 by class mean expression"
+      },
+      {
+        "symbol": "LMX1B",
+        "ensembl": "ENSG00000136944.17",
+        "shap": 1.0126,
+        "note": "Rank 7 by class mean expression"
+      },
+      {
+        "symbol": "ENSG00000240800",
+        "ensembl": "ENSG00000240800.1",
+        "shap": 1.0098,
+        "note": "Rank 8 by class mean expression"
+      }
+    ]
+  },
+  "COAD": {
+    "code": "COAD",
+    "full": "Colon Adenocarcinoma",
+    "genes": [
+      {
+        "symbol": "RETNLB",
+        "ensembl": "ENSG00000163515.6",
+        "shap": 2.4854,
+        "note": "Rank 1 by class mean expression"
+      },
+      {
+        "symbol": "CLCA1",
+        "ensembl": "ENSG00000016490.15",
+        "shap": 2.4648,
+        "note": "Rank 2 by class mean expression"
+      },
+      {
+        "symbol": "CDX1",
+        "ensembl": "ENSG00000113722.16",
+        "shap": 2.4455,
+        "note": "Rank 3 by class mean expression"
+      },
+      {
+        "symbol": "GPA33",
+        "ensembl": "ENSG00000143167.11",
+        "shap": 2.3638,
+        "note": "Rank 4 by class mean expression"
+      },
+      {
+        "symbol": "DEFA6",
+        "ensembl": "ENSG00000164822.4",
+        "shap": 2.3524,
+        "note": "Rank 5 by class mean expression"
+      },
+      {
+        "symbol": "CDH17",
+        "ensembl": "ENSG00000079112.9",
+        "shap": 2.3372,
+        "note": "Rank 6 by class mean expression"
+      },
+      {
+        "symbol": "FABP2",
+        "ensembl": "ENSG00000145384.3",
+        "shap": 2.3031,
+        "note": "Rank 7 by class mean expression"
+      },
+      {
+        "symbol": "MEP1A",
+        "ensembl": "ENSG00000112818.9",
+        "shap": 2.2895,
+        "note": "Rank 8 by class mean expression"
+      }
+    ]
+  },
+  "KIRC": {
+    "code": "KIRC",
+    "full": "Kidney Clear Cell Carcinoma",
+    "genes": [
+      {
+        "symbol": "ENSG00000280306",
+        "ensembl": "ENSG00000280306.1",
+        "shap": 1.9574,
+        "note": "Rank 1 by class mean expression"
+      },
+      {
+        "symbol": "LOC102723544",
+        "ensembl": "ENSG00000255746.1",
+        "shap": 1.9572,
+        "note": "Rank 2 by class mean expression"
+      },
+      {
+        "symbol": "LOC107984827",
+        "ensembl": "ENSG00000261170.1",
+        "shap": 1.9394,
+        "note": "Rank 3 by class mean expression"
+      },
+      {
+        "symbol": "ENSG00000227869",
+        "ensembl": "ENSG00000227869.1",
+        "shap": 1.9368,
+        "note": "Rank 4 by class mean expression"
+      },
+      {
+        "symbol": "ENSG00000269707",
+        "ensembl": "ENSG00000269707.1",
+        "shap": 1.9303,
+        "note": "Rank 5 by class mean expression"
+      },
+      {
+        "symbol": "LINC03017",
+        "ensembl": "ENSG00000235139.2",
+        "shap": 1.9248,
+        "note": "Rank 6 by class mean expression"
+      },
+      {
+        "symbol": "TMEM174",
+        "ensembl": "ENSG00000164325.7",
+        "shap": 1.9204,
+        "note": "Rank 7 by class mean expression"
+      },
+      {
+        "symbol": "ENSG00000248763",
+        "ensembl": "ENSG00000248763.2",
+        "shap": 1.92,
+        "note": "Rank 8 by class mean expression"
+      }
+    ]
+  },
+  "LUAD": {
+    "code": "LUAD",
+    "full": "Lung Adenocarcinoma",
+    "genes": [
+      {
+        "symbol": "SFTA3",
+        "ensembl": "ENSG00000257520.1",
+        "shap": 1.9377,
+        "note": "Rank 1 by class mean expression"
+      },
+      {
+        "symbol": "SFTA3",
+        "ensembl": "ENSG00000229415.9",
+        "shap": 1.9292,
+        "note": "Rank 2 by class mean expression"
+      },
+      {
+        "symbol": "SFTPB",
+        "ensembl": "ENSG00000168878.16",
+        "shap": 1.9285,
+        "note": "Rank 3 by class mean expression"
+      },
+      {
+        "symbol": "NKX2-1-AS1",
+        "ensembl": "ENSG00000253563.2",
+        "shap": 1.8643,
+        "note": "Rank 4 by class mean expression"
+      },
+      {
+        "symbol": "NKX2-1",
+        "ensembl": "ENSG00000136352.17",
+        "shap": 1.851,
+        "note": "Rank 5 by class mean expression"
+      },
+      {
+        "symbol": "SFTPC",
+        "ensembl": "ENSG00000168484.12",
+        "shap": 1.8336,
+        "note": "Rank 6 by class mean expression"
+      },
+      {
+        "symbol": "NAPSA",
+        "ensembl": "ENSG00000131400.7",
+        "shap": 1.8026,
+        "note": "Rank 7 by class mean expression"
+      },
+      {
+        "symbol": "SFTPA1",
+        "ensembl": "ENSG00000122852.14",
+        "shap": 1.7984,
+        "note": "Rank 8 by class mean expression"
+      }
+    ]
+  },
+  "PRAD": {
+    "code": "PRAD",
+    "full": "Prostate Adenocarcinoma",
+    "genes": [
+      {
+        "symbol": "LOC101929572",
+        "ensembl": "ENSG00000276888.1",
+        "shap": 2.1322,
+        "note": "Rank 1 by class mean expression"
+      },
+      {
+        "symbol": "POTEH-AS1",
+        "ensembl": "ENSG00000236666.1",
+        "shap": 2.1302,
+        "note": "Rank 2 by class mean expression"
+      },
+      {
+        "symbol": "LOC100508046",
+        "ensembl": "ENSG00000275563.1",
+        "shap": 2.1268,
+        "note": "Rank 3 by class mean expression"
+      },
+      {
+        "symbol": "ENSG00000229370",
+        "ensembl": "ENSG00000229370.1",
+        "shap": 2.0556,
+        "note": "Rank 4 by class mean expression"
+      },
+      {
+        "symbol": "PCAT4",
+        "ensembl": "ENSG00000251321.1",
+        "shap": 2.0489,
+        "note": "Rank 5 by class mean expression"
+      },
+      {
+        "symbol": "LINC03103",
+        "ensembl": "ENSG00000267465.6",
+        "shap": 2.0161,
+        "note": "Rank 6 by class mean expression"
+      },
+      {
+        "symbol": "ACP3",
+        "ensembl": "ENSG00000014257.15",
+        "shap": 2.0073,
+        "note": "Rank 7 by class mean expression"
+      },
+      {
+        "symbol": "RPS4Y2",
+        "ensembl": "ENSG00000280969.1",
+        "shap": 2.003,
+        "note": "Rank 8 by class mean expression"
+      }
+    ]
+  }
+}

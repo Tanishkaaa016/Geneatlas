@@ -1,0 +1,50 @@
+[
+  {
+    "code": "BRCA",
+    "full": "Breast Invasive Carcinoma",
+    "rows": [
+      {
+        "pathway": "Estrogen response (early)",
+        "source": "HALLMARK",
+        "nes": 1.95,
+        "q": "2.4e-03",
+        "overlap_genes": [
+          "GATA3"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "COAD",
+    "full": "Colon Adenocarcinoma",
+    "rows": []
+  },
+  {
+    "code": "KIRC",
+    "full": "Kidney Clear Cell Carcinoma",
+    "rows": []
+  },
+  {
+    "code": "LUAD",
+    "full": "Lung Adenocarcinoma",
+    "rows": [
+      {
+        "pathway": "Surfactant metabolism",
+        "source": "HALLMARK",
+        "nes": 3.3,
+        "q": "<1e-3",
+        "overlap_genes": [
+          "NAPSA",
+          "SFTPA1",
+          "SFTPB",
+          "SFTPC"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PRAD",
+    "full": "Prostate Adenocarcinoma",
+    "rows": []
+  }
+]

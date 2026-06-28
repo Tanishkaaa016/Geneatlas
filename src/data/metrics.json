@@ -1,0 +1,152 @@
+{
+  "dataset": {
+    "samples": 3268,
+    "features": 5000,
+    "classes": [
+      "Breast Invasive Carcinoma",
+      "Colon Adenocarcinoma",
+      "Kidney Clear Cell Carcinoma",
+      "Lung Adenocarcinoma",
+      "Prostate Adenocarcinoma"
+    ],
+    "test_size": 654
+  },
+  "model": {
+    "architecture": "MLP (1024\u2192512\u2192256\u2192softmax)",
+    "framework": "TensorFlow/Keras",
+    "feature_selection": "Top 5000 variable genes"
+  },
+  "evaluation": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        242,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        66,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        121,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        115,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "class_codes": [
+      "BRCA",
+      "COAD",
+      "KIRC",
+      "LUAD",
+      "PRAD"
+    ],
+    "class_labels": [
+      "Breast Invasive Carcinoma",
+      "Colon Adenocarcinoma",
+      "Kidney Clear Cell Carcinoma",
+      "Lung Adenocarcinoma",
+      "Prostate Adenocarcinoma"
+    ],
+    "per_class": [
+      {
+        "label": "Breast Invasive Carcinoma",
+        "code": "BRCA",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": 1.0,
+        "support": 242
+      },
+      {
+        "label": "Colon Adenocarcinoma",
+        "code": "COAD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": 1.0,
+        "support": 66
+      },
+      {
+        "label": "Kidney Clear Cell Carcinoma",
+        "code": "KIRC",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": 1.0,
+        "support": 121
+      },
+      {
+        "label": "Lung Adenocarcinoma",
+        "code": "LUAD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": 1.0,
+        "support": 115
+      },
+      {
+        "label": "Prostate Adenocarcinoma",
+        "code": "PRAD",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "auc": 1.0,
+        "support": 110
+      }
+    ]
+  },
+  "baselines": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9985,
+      "f1": 0.9988
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.9985,
+      "f1": 0.9987
+    },
+    {
+      "model": "GeneAtlas Neural Network",
+      "accuracy": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "calibration": [
+    {
+      "bin": "0.6-0.7",
+      "confidence": 0.68,
+      "accuracy": 1.0,
+      "count": 1
+    },
+    {
+      "bin": "0.9-1.0",
+      "confidence": 1.0,
+      "accuracy": 1.0,
+      "count": 653
+    }
+  ]
+}
